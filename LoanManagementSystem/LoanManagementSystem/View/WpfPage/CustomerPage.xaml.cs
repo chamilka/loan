@@ -133,16 +133,16 @@ namespace LoanManagementSystem.View.WpfPage
             {
                 this.AddEmployeeButton.Visibility = System.Windows.Visibility.Visible;
                 this.SearchEmployeeButton.Visibility = System.Windows.Visibility.Visible;
-                this.LeaveRequestButton.Visibility = System.Windows.Visibility.Collapsed;
-                this.ChangeTitleButton.Visibility = System.Windows.Visibility.Collapsed;
+                //this.LeaveRequestButton.Visibility = System.Windows.Visibility.Collapsed;
+                //this.ChangeTitleButton.Visibility = System.Windows.Visibility.Collapsed;
                 this.EditProfileButton.Visibility = System.Windows.Visibility.Collapsed;
             }
             else if (type == 1)
             {
                 this.AddEmployeeButton.Visibility = System.Windows.Visibility.Collapsed;
-                this.SearchEmployeeButton.Visibility = System.Windows.Visibility.Collapsed;
-                this.LeaveRequestButton.Visibility = System.Windows.Visibility.Visible;
-                this.ChangeTitleButton.Visibility = System.Windows.Visibility.Visible;
+                //this.SearchEmployeeButton.Visibility = System.Windows.Visibility.Collapsed;
+                //this.LeaveRequestButton.Visibility = System.Windows.Visibility.Visible;
+                //this.ChangeTitleButton.Visibility = System.Windows.Visibility.Visible;
                 this.EditProfileButton.Visibility = System.Windows.Visibility.Visible;
             }
         }

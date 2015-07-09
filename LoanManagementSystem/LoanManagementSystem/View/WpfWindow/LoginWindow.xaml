@@ -20,7 +20,7 @@
             © Copyright 2015
         </Label>
 
-        <Button x:Name="LoginButton" Content="Login" Style="{DynamicResource ButtonFormPrimary}"  HorizontalAlignment="left" Margin="412,254,0,66"  Width="81"  IsDefault="True">
+        <Button x:Name="LoginButton" Content="Login" Style="{DynamicResource ButtonFormPrimary}"  HorizontalAlignment="left" Margin="412,254,0,66"  Width="81"  IsDefault="True" Click="LoginButton_Click">
 
         </Button>
 

@@ -8,6 +8,8 @@ using MahApps.Metro.Controls;
 using System;
 using System.Windows.Media;
 
+using LoanManagementSystem.View.WpfPage;
+
 namespace LoanManagementSystem.View.WpfWindow
 {
     /// <summary>
@@ -21,7 +23,7 @@ namespace LoanManagementSystem.View.WpfWindow
         {
             InitializeComponent();
 
-            //ContentFrame.Content = DashBoardPage.Instance;
+            ContentFrame.Content = DashBoardPage.Instance;
             //CompanyName.Content = ApplicationSettings.COMPANY_SHORT_NAME;
 
             //CompanyName.FontFamily = new FontFamily(new Uri("pack://application:,,,/Fonts/"), "./#Dekers");
