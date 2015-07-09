@@ -70,3 +70,7 @@ D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\bi
 D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
 D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\MahApps.Metro.xml
 D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.pdb
+D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\Customer\EmployeeInfo.baml
+D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\Customer\QuickSearchPage.baml
+D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\Customer\EmployeeInfo.g.cs
+D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\Customer\QuickSearchPage.g.cs

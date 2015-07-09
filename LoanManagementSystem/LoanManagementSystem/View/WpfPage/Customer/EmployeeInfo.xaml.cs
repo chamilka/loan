@@ -10,63 +10,63 @@ using System.Windows.Media.Imaging;
 namespace LoanManagementSystem.View.WpfPage.Customer.CustomerPages
 {
     /// <summary>
-    /// Interaction logic for Employee EmployeeInfo.xaml
+    /// Interaction logic for Customer CustomerInfo.xaml
     /// </summary>
-    public partial class EmployeeInfo : Page
+    public partial class CustomerInfo : Page
     {
-        private static EmployeeInfo _instance;
+        private static CustomerInfo _instance;
         private byte[] _imageData { get; set; }
         public IList<string> ErrorList { get; set; }
 
-        private EmployeeInfo()
+        private CustomerInfo()
         {
             InitializeComponent();
         }
 
-        public static EmployeeInfo Instance
+        public static CustomerInfo Instance
         {
             get
             {
                 if (_instance == null)
                 {
-                    _instance = new EmployeeInfo();
+                    _instance = new CustomerInfo();
                 }
 
                 return _instance;
             }
         }
 
-        //public Employee GetEmployeeDetails()
+        //public Customer GetCustomerDetails()
         //{
         //    try
         //    {
-        //        Employee employee = new Employee();
+        //        Customer Customer = new Customer();
 
-        //        employee.EMP_ID = "CheckID";
-        //        employee.BANK = EmpBankNameTextBox.Text;
-        //        employee.BANK_ACCONT_NUMBER = EmpBanckAccTextBox.Text;
-        //        employee.CIVIL_STATUS = EmpCivilStateTextBox.Text;
-        //        employee.DOB = EmpBirthDayPicker.SelectedDate;
-        //        employee.FIRST_NAME = EmpFNameTextBox.Text;
-        //        employee.GENDER = getGender();
+        //        Customer.EMP_ID = "CheckID";
+        //        Customer.BANK = EmpBankNameTextBox.Text;
+        //        Customer.BANK_ACCONT_NUMBER = EmpBanckAccTextBox.Text;
+        //        Customer.CIVIL_STATUS = EmpCivilStateTextBox.Text;
+        //        Customer.DOB = EmpBirthDayPicker.SelectedDate;
+        //        Customer.FIRST_NAME = EmpFNameTextBox.Text;
+        //        Customer.GENDER = getGender();
 
-        //        employee.LAST_NAME = EmpLNameTextBox.Text;
-        //        employee.NATIONALITY = EmpNationalityTextBox.Text;
-        //        employee.NIC = EmpNICTextBox.Text;
-        //        //employee.PASSWORD = null;
-        //        //employee.USERNAME = null;
+        //        Customer.LAST_NAME = EmpLNameTextBox.Text;
+        //        Customer.NATIONALITY = EmpNationalityTextBox.Text;
+        //        Customer.NIC = EmpNICTextBox.Text;
+        //        //Customer.PASSWORD = null;
+        //        //Customer.USERNAME = null;
 
-        //        employee.PREFERRED_NAME = EmpPNameTextBox.Text;
-        //        employee.PROFPIC = _imageData;
-        //        employee.RELIGION = EmpReligionTextBox.Text;
+        //        Customer.PREFERRED_NAME = EmpPNameTextBox.Text;
+        //        Customer.PROFPIC = _imageData;
+        //        Customer.RELIGION = EmpReligionTextBox.Text;
 
-        //        employee.ISRESIGN = false;
-        //        employee.INSERT_DATETIME = DateTime.Now;
-        //        employee.INSERT_USER_ID = Session.LoggedEmployee.ID;
-        //        employee.UPDATE_DATETIME = DateTime.Now;
-        //        employee.UPDATE_USER_ID = Session.LoggedEmployee.ID;
+        //        Customer.ISRESIGN = false;
+        //        Customer.INSERT_DATETIME = DateTime.Now;
+        //        Customer.INSERT_USER_ID = Session.LoggedCustomer.ID;
+        //        Customer.UPDATE_DATETIME = DateTime.Now;
+        //        Customer.UPDATE_USER_ID = Session.LoggedCustomer.ID;
 
-        //        return employee;
+        //        return Customer;
         //    }
         //    catch (Exception)
         //    {
@@ -98,7 +98,7 @@ namespace LoanManagementSystem.View.WpfPage.Customer.CustomerPages
             {
                 string filename = dlg.FileName;
                 FileStream fs;
-                BinaryReader br;                
+                BinaryReader br;
 
                 fs = new FileStream(filename, FileMode.Open, FileAccess.Read);
                 br = new BinaryReader(fs);

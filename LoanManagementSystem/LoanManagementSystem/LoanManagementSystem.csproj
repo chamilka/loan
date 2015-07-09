@@ -66,6 +66,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="View\WpfPage\Customer\EmployeeInfo.xaml.cs">
+      <DependentUpon>EmployeeInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WpfPage\Customer\QuickSearchPage.xaml.cs">
+      <DependentUpon>QuickSearchPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\WpfPage\DashBoardPage.xaml.cs">
       <DependentUpon>DashBoardPage.xaml</DependentUpon>
     </Compile>
@@ -104,6 +110,14 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Styles\TextBoxStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\WpfPage\Customer\EmployeeInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\WpfPage\Customer\QuickSearchPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

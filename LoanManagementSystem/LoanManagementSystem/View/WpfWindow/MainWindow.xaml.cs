@@ -134,7 +134,7 @@ namespace LoanManagementSystem.View.WpfWindow
 
         private void HomeBtn_Click(object sender, RoutedEventArgs e)
         {
-            //ContentFrame.Content = DashBoardPage.Instance;
+             ContentFrame.Content = DashBoardPage.Instance;
         }
     }
 }

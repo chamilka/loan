@@ -13,10 +13,10 @@
         <DockPanel  x:Name="MainMenu" DockPanel.Dock="Top" Height="60" Visibility="Visible">
             <DockPanel DockPanel.Dock="Left" Height="60" Visibility="Visible">
                 <StackPanel Orientation="Horizontal" Margin="10,3,3,3">
-                   <StackPanel Width="33" Margin="0,10,400,12.4">
-                        <Button x:Name="HomeBtn" Style="{StaticResource ModuleButtonType1Orange}" Padding="0" Width="Auto" Height="45" Margin="0,0,-12.2,0" Click="HomeBtn_Click">
+                    <StackPanel Width="33" Margin="0,10,400,12.4">
+                        <Button x:Name="HomeBtn" Style="{StaticResource ModuleButtonType1Orange}" Padding="0" Width="45" Height="45" Margin="0,0,-12.2,0" Click="HomeBtn_Click" HorizontalAlignment="Right">
                             <StackPanel  HorizontalAlignment="Center" Width="45" Height="45">
-                                <Image Source="/LoanManagementSystem;component/Images/WpfWindow/MainWindow/appbar.home.png" Height="29" Margin="0,0,11.8,0"/>
+                                <Image Source="/LoanManagementSystem;component/Images/WpfWindow/MainWindow/appbar.home.png" Height="29" Margin="0,0,11.8,0" RenderTransformOrigin="0.564,0.5"/>
                             </StackPanel>
                         </Button>
                     </StackPanel>

@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 
+using LoanManagementSystem.View.WpfPage.Customer.CustomerPages;
+
 
 namespace LoanManagementSystem.View.WpfPage
 {
@@ -23,7 +25,7 @@ namespace LoanManagementSystem.View.WpfPage
         {
             InitializeComponent();
 
-     //       ContentFrame.Content = QuickSearchPage.Instance;
+            ContentFrame.Content = QuickSearchPage.Instance;
 
             //var test = ManagerService.GetManagerListByUserNamePassword("Test", "Test");
 
@@ -45,7 +47,7 @@ namespace LoanManagementSystem.View.WpfPage
 
         private void AddEmployeeButton_Click(object sender, RoutedEventArgs e)
         {
-           // ContentFrame.Content = DetailsPage.Instance;
+           ContentFrame.Content = CustomerInfo.Instance;
 
             MenuDefaultEmployeeDetails.Height = 0;
             MenuAddEmployeeDetails.Height = Double.NaN;
@@ -53,7 +55,7 @@ namespace LoanManagementSystem.View.WpfPage
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            //ContentFrame.Content = QuickSearchPage.Instance;
+            ContentFrame.Content = QuickSearchPage.Instance;
 
             MenuAddEmployeeDetails.Height = 0;
             MenuDefaultEmployeeDetails.Height = Double.NaN;

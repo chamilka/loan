@@ -1,148 +1,135 @@
-﻿<Page x:Class="HRMSystem.Wpf.EmployeePages.EmployeeInfo"
+﻿<Page x:Class="LoanManagementSystem.View.WpfPage.Customer.CustomerPages.CustomerInfo"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       mc:Ignorable="d" 
-      d:DesignHeight="430" d:DesignWidth="760" Background="Black">
-    
-    <Expander  HorizontalAlignment="Stretch"  Margin="5" VerticalAlignment="Stretch" IsExpanded="True" Background="#BFFF6400" BorderBrush="#BFFF6400"  >
-        <Expander.Header>
-            <StackPanel Orientation="Horizontal">
-                <Image Source="/HRMSystem;component/images/appbar.people.status.png" Margin="0,-10,0,-8" Height="30"/>
-                <Label Content="EMPLOYEE INFO"/>                                
+      d:DesignHeight="430" d:DesignWidth="760" Background="#5133AB">
+
+    <StackPanel Orientation="Vertical"  >
+        <Grid Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250*" />
+                <ColumnDefinition Width="400*" />
+                <ColumnDefinition Width="250*" />
+                <ColumnDefinition Width="400*" />
+                <ColumnDefinition Width="250*" />
+                <ColumnDefinition Width="400*" />
+            </Grid.ColumnDefinitions>
+
+            <!--First Row-->
+            <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
+                <Label Content="* First Name" FontWeight="Bold" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
             </StackPanel>
-        </Expander.Header>
+            <Grid Grid.Row="0" Grid.Column="1" Margin="0,10,0,0">
+                <TextBox x:Name="EmpFNameTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True" />
+            </Grid>
+            <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
+                <Label Content="* Last Name" FontWeight="Bold" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
+            </StackPanel>
+            <Grid Grid.Row="0" Grid.Column="3" Margin="0,10,0,0">
+                <TextBox x:Name="EmpLNameTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
+            </Grid>
+            <StackPanel Grid.Row="0" Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
+                <Label Content="Short Name" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
+            </StackPanel>
+            <Grid Grid.Row="0" Grid.Column="5" Margin="0,10,0,0">
+                <TextBox x:Name="EmpPNameTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
+            </Grid>
 
-        <StackPanel Orientation="Vertical"  >
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="250*" />
-                    <ColumnDefinition Width="400*" />
-                    <ColumnDefinition Width="250*" />
-                    <ColumnDefinition Width="400*" />
-                    <ColumnDefinition Width="250*" />
-                    <ColumnDefinition Width="400*" />
-                </Grid.ColumnDefinitions>
+            <!--Second Row-->
+            <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
+                <Label Content="* Address" FontWeight="Bold" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
+            </StackPanel>
+            <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5" Margin="0,10,0,0">
+                <TextBox x:Name="EmpAddressTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True" />
+            </Grid>
 
-                <!--First Row-->
-                <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="* First Name" FontWeight="Bold" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="0" Grid.Column="1" Margin="0,10,0,0">
-                    <TextBox x:Name="EmpFNameTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True" />
-                </Grid>
-                <StackPanel Grid.Row="0" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="* Last Name" FontWeight="Bold" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="0" Grid.Column="3" Margin="0,10,0,0">
-                    <TextBox x:Name="EmpLNameTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
-                </Grid>
-                <StackPanel Grid.Row="0" Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="Short Name" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="0" Grid.Column="5" Margin="0,10,0,0">
-                    <TextBox x:Name="EmpPNameTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
-                </Grid>
-
-                <!--Second Row-->
-                <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="* Address" FontWeight="Bold" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="5" Margin="0,10,0,0">
-                    <TextBox x:Name="EmpAddressTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True" />
-                </Grid>
-
-                <!--Third Row-->
-                <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="Date of Birth" FontWeight="Bold" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="2" Grid.Column="1" Margin="0,10,0,0">
-                    <DatePicker x:Name="EmpBirthDayPicker" HorizontalAlignment="Stretch" Margin="0" Width="Auto" Height="Auto"  Padding="0" Background="White" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center"/>
-                </Grid>
-                <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="Gender" FontWeight="Bold" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="2" Grid.Column="3" Margin="0,10,0,0">
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="Auto" Margin="6,0,0,0"  >
-                        <RadioButton x:Name="GenderRBM" Width="70" GroupName="sex" >
-                            <Label Content="Male" VerticalAlignment="Center" />
-                        </RadioButton>
-                        <RadioButton x:Name="GenderRBF" Width="70" GroupName="sex">
-                            <Label Content="Female" VerticalAlignment="Center" />
-                        </RadioButton>
-                    </StackPanel>
-                </Grid>
-                <StackPanel Grid.Row="2" Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="NIC " HorizontalAlignment="Right" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="2" Grid.Column="5" Margin="0,10,0,0">
-                    <TextBox x:Name="EmpNICTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
-                </Grid>
-
-                <!--Fourth Row-->
-                <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="Religion" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="3" Grid.Column="1" Margin="0,10,0,0">
-                    <TextBox x:Name="EmpReligionTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
-                </Grid>
-                <StackPanel Grid.Row="3" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="Nationality" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="3" Grid.Column="3" Margin="0,10,0,0">
-                    <TextBox x:Name="EmpNationalityTextBox" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
-                </Grid>
-                <StackPanel Grid.Row="3" Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="Marital Status" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="3" Grid.Column="5" Margin="0,10,0,0">
-                    <TextBox x:Name="EmpCivilStateTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
-                </Grid>
-
-                <!--Fifth Row-->
-                <StackPanel Grid.Row="4"  Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="Bank" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,10,0,0">
-                    <TextBox x:Name="EmpBankNameTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
-                </Grid>
-                <StackPanel Grid.Row="4" Grid.Column="3" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="Bank Account Number" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="4" Grid.Column="4"  Grid.ColumnSpan="2" Margin="0,10,0,0">
-                    <TextBox x:Name="EmpBanckAccTextBox" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
-                </Grid>
-
-                <!--Sixth Row-->
-                <StackPanel Grid.Row="5" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
-                    <Label Content="Profile Picture" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
-                </StackPanel>
-                <Grid Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" Margin="0,10,0,0">
-                    <Border CornerRadius="10" BorderThickness="1" Width="120" Height="120" BorderBrush="Gray" >
-                        <Rectangle RadiusX="10" RadiusY="10"  >
-                            <Rectangle.Fill>
-                                <ImageBrush x:Name="ProfPicBox" ImageSource="/HRMSystem;component/images/photo.png"/>
-                            </Rectangle.Fill>
-                        </Rectangle>
-                    </Border>
-                </Grid>
-                <StackPanel Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="left" >
-                    <Button  x:Name="LoadImageButton" BorderBrush="{x:Null}" Style="{StaticResource ButtonFormPrimary}" HorizontalAlignment="Right" Margin="20,0,0,0" Height="40" Width="Auto" Click="LoadImageButton_Click">
-                        <StackPanel Orientation="Horizontal" Width="Auto">
-                            <Label Content="Choose Image"  FontSize="14" Width="Auto"/>
-                        </StackPanel>
-                    </Button>
+            <!--Third Row-->
+            <StackPanel Grid.Row="2" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
+                <Label Content="Date of Birth" FontWeight="Bold" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
+            </StackPanel>
+            <Grid Grid.Row="2" Grid.Column="1" Margin="0,10,0,0">
+                <DatePicker x:Name="EmpBirthDayPicker" HorizontalAlignment="Stretch" Margin="0" Width="Auto" Height="Auto"  Padding="0" Background="White" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Center"/>
+            </Grid>
+            <StackPanel Grid.Row="2" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
+                <Label Content="Gender" FontWeight="Bold" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
+            </StackPanel>
+            <Grid Grid.Row="2" Grid.Column="3" Margin="0,10,0,0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Width="Auto" Margin="6,0,0,0"  >
+                    <RadioButton x:Name="GenderRBM" Width="70" GroupName="sex" >
+                        <Label Content="Male" VerticalAlignment="Center" />
+                    </RadioButton>
+                    <RadioButton x:Name="GenderRBF" Width="70" GroupName="sex">
+                        <Label Content="Female" VerticalAlignment="Center" />
+                    </RadioButton>
                 </StackPanel>
             </Grid>
-        </StackPanel>
-    </Expander>
+            <StackPanel Grid.Row="2" Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
+
+            </StackPanel>
+            <Grid Grid.Row="2" Grid.Column="5" Margin="0,10,0,0">
+                
+            </Grid>
+
+            <!--Fourth Row-->
+            <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
+                <Label Content="Religion" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
+            </StackPanel>
+            <Grid Grid.Row="3" Grid.Column="1" Margin="0,10,0,0">
+                <TextBox x:Name="EmpReligionTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
+            </Grid>
+            <StackPanel Grid.Row="3" Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
+                <Label Content="Nationality" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
+            </StackPanel>
+            <Grid Grid.Row="3" Grid.Column="3" Margin="0,10,0,0">
+                <TextBox x:Name="EmpNationalityTextBox" Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
+            </Grid>
+            <StackPanel Grid.Row="3" Grid.Column="4" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
+                <Label Content="Marital Status" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
+            </StackPanel>
+            <Grid Grid.Row="3" Grid.Column="5" Margin="0,10,0,0">
+                <TextBox x:Name="EmpCivilStateTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True"/>
+            </Grid>
+
+            <!--Fifth Row-->
+            <StackPanel Grid.Row="4"  Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
+                <Label Content="NIC " HorizontalAlignment="Right" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
+            </StackPanel>
+            <Grid Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Margin="0,10,0,0">
+                <TextBox x:Name="EmpBankNameTextBox"  Height="Auto" Width="Auto" HorizontalAlignment="Stretch" ClipToBounds="True" Margin="0,0,97.2,1.2"/>
+            </Grid>
+            <StackPanel Grid.Row="4" Grid.Column="3" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" />
+            <Grid Grid.Row="4" Grid.Column="4"  Grid.ColumnSpan="2" Margin="0,10,0,0"/>
+
+            <!--Sixth Row-->
+            <StackPanel Grid.Row="5" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="Right" >
+                <Label Content="Profile Picture" HorizontalAlignment="Center" Width="Auto" Margin="0,0,5,0" FlowDirection="RightToLeft"/>
+            </StackPanel>
+            <Grid Grid.Row="5" Grid.Column="2" Grid.ColumnSpan="2" Margin="0,10,0,0">
+                <Border CornerRadius="10" BorderThickness="1" Width="120" Height="120" BorderBrush="Gray" >
+                    <Rectangle RadiusX="0" RadiusY="10"  >
+                        <Rectangle.Fill>
+                            <ImageBrush x:Name="ProfPicBox" ImageSource="/LoanManagementSystem;component/Images/WpfWindow/LoginWindow/User.png"/>
+                        </Rectangle.Fill>
+                    </Rectangle>
+                </Border>
+            </Grid>
+            <StackPanel Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Center" Margin="0,10,0,0" HorizontalAlignment="left" >
+                <Button  x:Name="LoadImageButton" BorderBrush="{x:Null}" Style="{StaticResource ButtonFormPrimary}" HorizontalAlignment="Right" Margin="20,0,0,0" Height="40" Width="Auto" Click="LoadImageButton_Click">
+                    <StackPanel Orientation="Horizontal" Width="Auto">
+                        <Label Content="Choose Image"  FontSize="14" Width="Auto"/>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </StackPanel>
 </Page>

@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 
+using LoanManagementSystem.View.WpfWindow;
+
 
 namespace LoanManagementSystem.View.WpfPage
 {
@@ -71,7 +73,7 @@ namespace LoanManagementSystem.View.WpfPage
 
         private void EmployeeBtn_Click(object sender, RoutedEventArgs e)
         {
-           // MainWindow.Instance.ContentFrame.Content = EmployeePage.Instance;
+            MainWindow.Instance.ContentFrame.Content = CustomerPage.Instance;
         }
 
         private void ReportsBtn_Click(object sender, RoutedEventArgs e)
