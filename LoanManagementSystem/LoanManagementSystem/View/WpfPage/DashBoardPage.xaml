@@ -18,7 +18,7 @@
                     <StackPanel Orientation="Vertical" Width="200">
                         <StackPanel Orientation="Horizontal" Width="200" Height="100">
 
-                            <Button x:Name="SettingsBtn" Style="{StaticResource ModuleButtonType1LightBlue}" Width="90" Height="Auto">
+                            <Button x:Name="SettingsBtn" Style="{StaticResource ModuleButtonType1LightBlue}" Width="90" Height="Auto" Click="SettingsBtn_Click">
                                 <StackPanel Orientation="Vertical">
                                     <Image Source="/LoanManagementSystem;component/Images/WpfPage/DashBoard/iconSettings.png"  />
                                     <TextBlock Text="Settings" FontSize="12" TextAlignment="Center" />

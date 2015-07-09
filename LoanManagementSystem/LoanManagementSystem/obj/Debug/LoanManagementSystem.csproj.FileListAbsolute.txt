@@ -70,3 +70,41 @@ D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\bi
 D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
 D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\MahApps.Metro.xml
 D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.pdb
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\LoanManagementSystem.exe.config
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.exe
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.pdb
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\LoanManagementSystem.exe
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\LoanManagementSystem.pdb
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\EntityFramework.dll
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\EntityFramework.SqlServer.dll
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\MahApps.Metro.dll
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\System.Windows.Interactivity.dll
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\EntityFramework.xml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\MahApps.Metro.xml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.csprojResolveAssemblyReference.cache
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\StartarWindow.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\Styles\ButtonStyle.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\Styles\CommonStyle.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\Styles\LabelStyle.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\Styles\MenuBarStyle.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\Styles\ProgressBarStyle.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\Styles\TabStyle.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\Styles\TextBoxStyle.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\DashBoardPage.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\CustomerPage.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfWindow\LoginWindow.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfWindow\MainWindow.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\App.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\StartarWindow.g.cs
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\DashBoardPage.g.cs
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\CustomerPage.g.cs
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfWindow\LoginWindow.g.cs
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfWindow\MainWindow.g.cs
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\App.g.cs
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem_MarkupCompile.cache
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.g.resources
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.Properties.Resources.resources
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.csproj.GenerateResource.Cache
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\SettingsPage.baml
+D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\SettingsPage.g.cs

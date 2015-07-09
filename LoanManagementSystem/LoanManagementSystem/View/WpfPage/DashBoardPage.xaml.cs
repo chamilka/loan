@@ -7,6 +7,8 @@ using System.Windows.Input;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using LoanManagementSystem.View.WpfWindow;
+using LoanManagementSystem.View.WpfPage;
 
 
 namespace LoanManagementSystem.View.WpfPage
@@ -81,7 +83,12 @@ namespace LoanManagementSystem.View.WpfPage
 
         private void AttendenceBtn_Click(object sender, RoutedEventArgs e)
         {
-           // MainWindow.Instance.ContentFrame.Content = AttendencePage.Instance;
+         //   MainWindow.Instance.ContentFrame.Content = AttendencePage.Instance;
+        }
+
+        private void SettingsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.Instance.ContentFrame.Content = SettingsPage.Instance;
         }
 
     }

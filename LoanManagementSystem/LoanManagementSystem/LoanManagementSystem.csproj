@@ -66,6 +66,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="View\WpfPage\SettingsPage.xaml.cs">
+      <DependentUpon>SettingsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\WpfPage\DashBoardPage.xaml.cs">
       <DependentUpon>DashBoardPage.xaml</DependentUpon>
     </Compile>
@@ -104,6 +107,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="Styles\TextBoxStyle.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\WpfPage\SettingsPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -260,6 +267,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\WpfPage\CustomerPage\appbar.save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\WpfPage\SettingsPage\appbar.arrow.left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\WpfPage\SettingsPage\appbar.people.checkbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\WpfPage\SettingsPage\appbar.people.magnify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\WpfPage\SettingsPage\appbar.save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\WpfPage\SettingsPage\appbar.user.add.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
