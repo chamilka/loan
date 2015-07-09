@@ -1,4 +1,4 @@
-﻿<Page x:Class="HRMSystem.Wpf.EmployeePages.QuickSearchPage"
+﻿<Page x:Class="LoanManagementSystem.View.WpfPage.Customer.CustomerPages.QuickSearchPage"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 

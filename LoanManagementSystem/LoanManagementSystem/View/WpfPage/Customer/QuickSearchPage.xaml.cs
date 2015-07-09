@@ -3,12 +3,9 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Collections.Generic;
 using System.Linq;
-using HRMSystem.Util;
-using HRMSystem.DBServices;
-using HRMSystem.Wpf.WpfWindow;
 
 
-namespace HRMSystem.Wpf.EmployeePages
+namespace LoanManagementSystem.View.WpfPage.Customer.CustomerPages
 {
     /// <summary>
     /// Interaction logic for Employee QuickSearchPage.xaml
@@ -16,11 +13,11 @@ namespace HRMSystem.Wpf.EmployeePages
     public partial class QuickSearchPage : Page
     {
         private static QuickSearchPage instance;
-        public IList<string> ErrorList { get; set; }
-        public List<Employee> EmployeeList { get; set; }
-        public List<PageData> PagingList { get; set; }
+        //public IList<string> ErrorList { get; set; }
+        //public List<Employee> EmployeeList { get; set; }
+        //public List<PageData> PagingList { get; set; }
 
-        private PagingCollection<Employee> _PagingCollection { get; set; }
+        //private PagingCollection<Employee> _PagingCollection { get; set; }
 
         private bool _isSearchedPerformed = false;
         private string _searchText = "";
@@ -54,23 +51,23 @@ namespace HRMSystem.Wpf.EmployeePages
 
         private void RefreshEmployeeListByPage(int page)
         {
-            if (_isSearchedPerformed)
-            {
-                _PagingCollection = EmployeeService.GetPaginatedQuickSearchedEmployeeListByPage(_searchText, page);
-            }
-            else
-            {
-                _PagingCollection = EmployeeService.GetPaginatedEmployeeListByPage(page);
-            }
+            //if (_isSearchedPerformed)
+            //{
+            //    _PagingCollection = EmployeeService.GetPaginatedQuickSearchedEmployeeListByPage(_searchText, page);
+            //}
+            //else
+            //{
+            //    _PagingCollection = EmployeeService.GetPaginatedEmployeeListByPage(page);
+            //}
 
-            EmployeeList = _PagingCollection.Collection;
-            PagingList = _PagingCollection.PagesList;
+            //EmployeeList = _PagingCollection.Collection;
+            //PagingList = _PagingCollection.PagesList;
 
-            EmployeeListView.ItemsSource = EmployeeList;
-            EmployeeListView.Items.Refresh();
+            //EmployeeListView.ItemsSource = EmployeeList;
+            //EmployeeListView.Items.Refresh();
 
-            PagingListView.ItemsSource = PagingList;
-            PagingListView.Items.Refresh();
+            //PagingListView.ItemsSource = PagingList;
+            //PagingListView.Items.Refresh();
         }
 
         private void PaginationButton_Click(object sender, RoutedEventArgs e)
@@ -83,21 +80,21 @@ namespace HRMSystem.Wpf.EmployeePages
 
         private void EmployeeDetailsButton_Click(object sender, RoutedEventArgs e)
         {
-            Button button = (Button)sender;
-            StackPanel sp = (StackPanel)button.Content;
-            Label lbl = sp.Children.OfType<Label>().FirstOrDefault();
+            //Button button = (Button)sender;
+            //StackPanel sp = (StackPanel)button.Content;
+            //Label lbl = sp.Children.OfType<Label>().FirstOrDefault();
 
-            if (lbl.Content.ToString() != "")
-            {
-                Employee selected = EmployeeList.Single(c => c.ID == int.Parse(lbl.Content.ToString()));
+            //if (lbl.Content.ToString() != "")
+            //{
+            //    Employee selected = EmployeeList.Single(c => c.ID == int.Parse(lbl.Content.ToString()));
 
-                Session.SelectedEmployee = selected;
-            }
-            else
-            {
-                MessageWindow msg = new MessageWindow(Messages.TTL_MSG, Messages.MSG_SELECT_EMPLOYEE);
-                msg.ShowDialog();
-            }
+            //    Session.SelectedEmployee = selected;
+            //}
+            //else
+            //{
+            //    MessageWindow msg = new MessageWindow(Messages.TTL_MSG, Messages.MSG_SELECT_EMPLOYEE);
+            //    msg.ShowDialog();
+            //}
         }
 
     }

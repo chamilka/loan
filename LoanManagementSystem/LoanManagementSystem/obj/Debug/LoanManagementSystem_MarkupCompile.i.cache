@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\App.xaml
-12967469316
+14-468158393
 
-19855930834
+21674910704
 17-319257075
-StartarWindow.xaml;Styles\ButtonStyle.xaml;Styles\CommonStyle.xaml;Styles\LabelStyle.xaml;Styles\MenuBarStyle.xaml;Styles\ProgressBarStyle.xaml;Styles\TabStyle.xaml;Styles\TextBoxStyle.xaml;View\WpfPage\DashBoardPage.xaml;View\WpfPage\CustomerPage.xaml;View\WpfWindow\LoginWindow.xaml;View\WpfWindow\MainWindow.xaml;
+StartarWindow.xaml;Styles\ButtonStyle.xaml;Styles\CommonStyle.xaml;Styles\LabelStyle.xaml;Styles\MenuBarStyle.xaml;Styles\ProgressBarStyle.xaml;Styles\TabStyle.xaml;Styles\TextBoxStyle.xaml;View\WpfPage\Customer\EmployeeInfo.xaml;View\WpfPage\Customer\QuickSearchPage.xaml;View\WpfPage\DashBoardPage.xaml;View\WpfPage\CustomerPage.xaml;View\WpfWindow\LoginWindow.xaml;View\WpfWindow\MainWindow.xaml;
 
 False
 

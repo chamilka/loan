@@ -2,13 +2,12 @@
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Collections.Generic;
-using HRMSystem.Models;
 using System;
 using System.IO;
 using System.Windows.Media.Imaging;
 
 
-namespace HRMSystem.Wpf.EmployeePages
+namespace LoanManagementSystem.View.WpfPage.Customer.CustomerPages
 {
     /// <summary>
     /// Interaction logic for Employee EmployeeInfo.xaml
@@ -37,43 +36,43 @@ namespace HRMSystem.Wpf.EmployeePages
             }
         }
 
-        public Employee GetEmployeeDetails()
-        {
-            try
-            {
-                Employee employee = new Employee();
+        //public Employee GetEmployeeDetails()
+        //{
+        //    try
+        //    {
+        //        Employee employee = new Employee();
 
-                employee.EMP_ID = "CheckID";
-                employee.BANK = EmpBankNameTextBox.Text;
-                employee.BANK_ACCONT_NUMBER = EmpBanckAccTextBox.Text;
-                employee.CIVIL_STATUS = EmpCivilStateTextBox.Text;
-                employee.DOB = EmpBirthDayPicker.SelectedDate;
-                employee.FIRST_NAME = EmpFNameTextBox.Text;
-                employee.GENDER = getGender();
+        //        employee.EMP_ID = "CheckID";
+        //        employee.BANK = EmpBankNameTextBox.Text;
+        //        employee.BANK_ACCONT_NUMBER = EmpBanckAccTextBox.Text;
+        //        employee.CIVIL_STATUS = EmpCivilStateTextBox.Text;
+        //        employee.DOB = EmpBirthDayPicker.SelectedDate;
+        //        employee.FIRST_NAME = EmpFNameTextBox.Text;
+        //        employee.GENDER = getGender();
 
-                employee.LAST_NAME = EmpLNameTextBox.Text;
-                employee.NATIONALITY = EmpNationalityTextBox.Text;
-                employee.NIC = EmpNICTextBox.Text;
-                //employee.PASSWORD = null;
-                //employee.USERNAME = null;
+        //        employee.LAST_NAME = EmpLNameTextBox.Text;
+        //        employee.NATIONALITY = EmpNationalityTextBox.Text;
+        //        employee.NIC = EmpNICTextBox.Text;
+        //        //employee.PASSWORD = null;
+        //        //employee.USERNAME = null;
 
-                employee.PREFERRED_NAME = EmpPNameTextBox.Text;
-                employee.PROFPIC = _imageData;
-                employee.RELIGION = EmpReligionTextBox.Text;
+        //        employee.PREFERRED_NAME = EmpPNameTextBox.Text;
+        //        employee.PROFPIC = _imageData;
+        //        employee.RELIGION = EmpReligionTextBox.Text;
 
-                employee.ISRESIGN = false;
-                employee.INSERT_DATETIME = DateTime.Now;
-                employee.INSERT_USER_ID = Session.LoggedEmployee.ID;
-                employee.UPDATE_DATETIME = DateTime.Now;
-                employee.UPDATE_USER_ID = Session.LoggedEmployee.ID;
+        //        employee.ISRESIGN = false;
+        //        employee.INSERT_DATETIME = DateTime.Now;
+        //        employee.INSERT_USER_ID = Session.LoggedEmployee.ID;
+        //        employee.UPDATE_DATETIME = DateTime.Now;
+        //        employee.UPDATE_USER_ID = Session.LoggedEmployee.ID;
 
-                return employee;
-            }
-            catch (Exception)
-            {
-                return null;
-            }
-        }
+        //        return employee;
+        //    }
+        //    catch (Exception)
+        //    {
+        //        return null;
+        //    }
+        //}
 
         private string getGender()
         {
