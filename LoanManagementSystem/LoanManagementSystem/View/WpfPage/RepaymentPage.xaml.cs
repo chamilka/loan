@@ -8,37 +8,35 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 
-using LoanManagementSystem.View.WpfPage.Customer.CustomerPages;
-
 
 namespace LoanManagementSystem.View.WpfPage
 {
     /// <summary>
-    /// Interaction logic for EmployeePage.xaml
+    /// Interaction logic for RepaymentPage.xaml
     /// </summary>
-    public partial class CustomerPage : Page
+    public partial class RepaymentPage : Page
     {
-        private static CustomerPage instance;
+        private static RepaymentPage instance;
         public IList<string> ErrorList { get; set; }
 
-        public CustomerPage()
+        public RepaymentPage()
         {
             InitializeComponent();
 
-            ContentFrame.Content = QuickSearchPage.Instance;
+     //       ContentFrame.Content = QuickSearchPage.Instance;
 
             //var test = ManagerService.GetManagerListByUserNamePassword("Test", "Test");
 
             //string str = test.ToString();
         }
 
-        public static CustomerPage Instance
+        public static RepaymentPage Instance
         {
             get
             {
                 if (instance == null)
                 {
-                    instance = new CustomerPage();
+                    instance = new RepaymentPage();
                 }
 
                 return instance;
@@ -47,7 +45,7 @@ namespace LoanManagementSystem.View.WpfPage
 
         private void AddEmployeeButton_Click(object sender, RoutedEventArgs e)
         {
-           ContentFrame.Content = CustomerInfo.Instance;
+           // ContentFrame.Content = DetailsPage.Instance;
 
             MenuDefaultEmployeeDetails.Height = 0;
             MenuAddEmployeeDetails.Height = Double.NaN;
@@ -55,7 +53,7 @@ namespace LoanManagementSystem.View.WpfPage
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            ContentFrame.Content = QuickSearchPage.Instance;
+            //ContentFrame.Content = QuickSearchPage.Instance;
 
             MenuAddEmployeeDetails.Height = 0;
             MenuDefaultEmployeeDetails.Height = Double.NaN;
@@ -147,6 +145,11 @@ namespace LoanManagementSystem.View.WpfPage
                 //this.ChangeTitleButton.Visibility = System.Windows.Visibility.Visible;
                 this.EditProfileButton.Visibility = System.Windows.Visibility.Visible;
             }
+        }
+
+        private void Page_Loaded_1(object sender, RoutedEventArgs e)
+        {
+            ContentFrame.Content = RepaymentPage.Instance;
         }
     }
 }

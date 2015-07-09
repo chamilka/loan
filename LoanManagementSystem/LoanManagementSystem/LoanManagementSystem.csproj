@@ -66,8 +66,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+<<<<<<< HEAD
     <Compile Include="View\WpfPage\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
+=======
+    <Compile Include="View\WpfPage\Customer\EmployeeInfo.xaml.cs">
+      <DependentUpon>EmployeeInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\WpfPage\Customer\QuickSearchPage.xaml.cs">
+      <DependentUpon>QuickSearchPage.xaml</DependentUpon>
+>>>>>>> origin/master
     </Compile>
     <Compile Include="View\WpfPage\DashBoardPage.xaml.cs">
       <DependentUpon>DashBoardPage.xaml</DependentUpon>
@@ -110,7 +118,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+<<<<<<< HEAD
     <Page Include="View\WpfPage\SettingsPage.xaml">
+=======
+    <Page Include="View\WpfPage\Customer\EmployeeInfo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\WpfPage\Customer\QuickSearchPage.xaml">
+>>>>>>> origin/master
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

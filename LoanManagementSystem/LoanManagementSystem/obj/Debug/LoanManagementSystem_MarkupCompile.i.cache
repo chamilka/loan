@@ -9,12 +9,21 @@ LoanManagementSystem
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\App.xaml
 131422762491
 
 20-1452296097
 17-442867393
 StartarWindow.xaml;Styles\ButtonStyle.xaml;Styles\CommonStyle.xaml;Styles\LabelStyle.xaml;Styles\MenuBarStyle.xaml;Styles\ProgressBarStyle.xaml;Styles\TabStyle.xaml;Styles\TextBoxStyle.xaml;View\WpfPage\SettingsPage.xaml;View\WpfPage\DashBoardPage.xaml;View\WpfPage\CustomerPage.xaml;View\WpfWindow\LoginWindow.xaml;View\WpfWindow\MainWindow.xaml;
+=======
+D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\App.xaml
+14-468158393
+
+21674910704
+17-319257075
+StartarWindow.xaml;Styles\ButtonStyle.xaml;Styles\CommonStyle.xaml;Styles\LabelStyle.xaml;Styles\MenuBarStyle.xaml;Styles\ProgressBarStyle.xaml;Styles\TabStyle.xaml;Styles\TextBoxStyle.xaml;View\WpfPage\Customer\EmployeeInfo.xaml;View\WpfPage\Customer\QuickSearchPage.xaml;View\WpfPage\DashBoardPage.xaml;View\WpfPage\CustomerPage.xaml;View\WpfWindow\LoginWindow.xaml;View\WpfWindow\MainWindow.xaml;
+>>>>>>> origin/master
 
 False
 

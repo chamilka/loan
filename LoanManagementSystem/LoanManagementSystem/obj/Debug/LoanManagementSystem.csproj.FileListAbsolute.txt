@@ -70,6 +70,7 @@ D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\bi
 D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\EntityFramework.SqlServer.xml
 D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\MahApps.Metro.xml
 D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.pdb
+<<<<<<< HEAD
 D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\bin\Debug\LoanManagementSystem.exe.config
 D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.exe
 D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.pdb
@@ -108,3 +109,9 @@ D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\Lo
 D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\LoanManagementSystem.csproj.GenerateResource.Cache
 D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\SettingsPage.baml
 D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\SettingsPage.g.cs
+=======
+D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\Customer\EmployeeInfo.baml
+D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\Customer\QuickSearchPage.baml
+D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\Customer\EmployeeInfo.g.cs
+D:\Projects\Visual Studio 2012\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\View\WpfPage\Customer\QuickSearchPage.g.cs
+>>>>>>> origin/master

@@ -40,7 +40,7 @@
                                 </StackPanel>
                             </Button>
 
-                            <Button  x:Name="EventsBtn" Style="{StaticResource ModuleButtonType1Purple}" Width="90" Height="Auto">
+                            <Button  x:Name="EventsBtn" Style="{StaticResource ModuleButtonType1Sinna}" Width="90" Height="Auto">
                                 <StackPanel Orientation="Vertical">
                                     <Image Source="/LoanManagementSystem;component/Images/WpfPage/DashBoard/appbar.calculator.png" />
                                     <TextBlock Text="Loan Cal" FontSize="12" TextAlignment="Center"/>
