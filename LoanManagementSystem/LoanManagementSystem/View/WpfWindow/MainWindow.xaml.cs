@@ -23,7 +23,6 @@ namespace LoanManagementSystem.View.WpfWindow
         {
             InitializeComponent();
 
-            //ContentFrame.Content = DashBoardPage.Instance;
             ContentFrame.Content = DashBoardPage.Instance;
             //CompanyName.Content = ApplicationSettings.COMPANY_SHORT_NAME;
 
