@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\obj\Debug\
+C:\Users\Sampath\documents\visual studio 2012\Projects\LoanManagementSystem\LoanManagementSystem\obj\Debug\
 LoanManagementSystem
 none
 false
 DEBUG;TRACE
-D:\WPF Projects\Loan\loan\LoanManagementSystem\LoanManagementSystem\App.xaml
-12967469316
+C:\Users\Sampath\documents\visual studio 2012\Projects\LoanManagementSystem\LoanManagementSystem\App.xaml
+14-468158393
 
-191790423718
-17-442867393
-StartarWindow.xaml;Styles\ButtonStyle.xaml;Styles\CommonStyle.xaml;Styles\LabelStyle.xaml;Styles\MenuBarStyle.xaml;Styles\ProgressBarStyle.xaml;Styles\TabStyle.xaml;Styles\TextBoxStyle.xaml;View\WpfPage\DashBoardPage.xaml;View\WpfPage\CustomerPage.xaml;View\WpfWindow\LoginWindow.xaml;View\WpfWindow\MainWindow.xaml;
+21674910704
+172083044829
+StartarWindow.xaml;Styles\ButtonStyle.xaml;Styles\CommonStyle.xaml;Styles\LabelStyle.xaml;Styles\MenuBarStyle.xaml;Styles\ProgressBarStyle.xaml;Styles\TabStyle.xaml;Styles\TextBoxStyle.xaml;View\WpfPage\Customer\EmployeeInfo.xaml;View\WpfPage\Customer\QuickSearchPage.xaml;View\WpfPage\DashBoardPage.xaml;View\WpfPage\CustomerPage.xaml;View\WpfWindow\LoginWindow.xaml;View\WpfWindow\MainWindow.xaml;
 
 False
 
