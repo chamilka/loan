@@ -47,5 +47,11 @@ namespace LoanManagementSystem.View.WpfWindow
         {
             this.WindowState = WindowState.Minimized;
         }
+
+        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow.Instance.Show();
+            this.Close();
+        }
     }
 }

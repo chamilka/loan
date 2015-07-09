@@ -110,6 +110,12 @@ namespace LoanManagementSystem.View.WpfWindow {
             return;
             case 3:
             this.LoginButton = ((System.Windows.Controls.Button)(target));
+            
+            #line 23 "..\..\..\..\View\WpfWindow\LoginWindow.xaml"
+            this.LoginButton.Click += new System.Windows.RoutedEventHandler(this.LoginButton_Click);
+            
+            #line default
+            #line hidden
             return;
             case 4:
             this.CancelButton = ((System.Windows.Controls.Button)(target));
