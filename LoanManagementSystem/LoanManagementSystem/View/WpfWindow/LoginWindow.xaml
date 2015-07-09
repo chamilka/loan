@@ -1,0 +1,34 @@
+﻿<Controls:MetroWindow x:Class="LoanManagementSystem.View.WpfWindow.LoginWindow"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      Title="Loan Mangement System"  
+                      Width="660" Height="350" MinWidth="660" MinHeight="300" WindowStartupLocation="CenterScreen" Background="#5133AB" WindowStyle="None" >
+
+    <Grid HorizontalAlignment="Left"  VerticalAlignment="Top" Height="350" Width="660" Margin="0,0,-6.4,-6" >
+
+        <Label Content="Enter your User Name and Password. " HorizontalAlignment="Left" Margin="399,163,0,0" VerticalAlignment="Top"/>
+        <Label Content="User Name" HorizontalAlignment="Left" Margin="330,197,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.489,2.254"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="330,221,0,0" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="UserNameTextBox" HorizontalAlignment="Left" Height="23" Margin="398,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" SelectionOpacity="-4" ToolTip="Insert Your User Name" TabIndex="1"/>
+        <PasswordBox x:Name="PasswordTextBox" HorizontalAlignment="Left" Margin="398,219,0,0" VerticalAlignment="Top"  Width="200" ToolTip="Insert Your Password" TabIndex="2"/>
+
+        <Image HorizontalAlignment="Left" Height="90" Margin="221,166,0,0" VerticalAlignment="Top" Width="86" Source="/LoanManagementSystem;component/Images/WpfWindow/LoginWindow/User.png"/>
+
+        <Label HorizontalContentAlignment="Center" Style="{StaticResource SmallLabel}" Width="Auto" Margin="21,322,0,10">
+            © Copyright 2015
+        </Label>
+
+        <Button x:Name="LoginButton" Content="Login" Style="{DynamicResource ButtonFormPrimary}"  HorizontalAlignment="left" Margin="412,254,0,66"  Width="81"  IsDefault="True">
+
+        </Button>
+
+        <Button x:Name="CancelButton"  Content="Cancel" Style="{DynamicResource ButtonFormPrimary}"  HorizontalAlignment="left" Margin="500,254,0,66"  Width="81" >
+
+        </Button>
+
+    </Grid>
+
+</Controls:MetroWindow>
+

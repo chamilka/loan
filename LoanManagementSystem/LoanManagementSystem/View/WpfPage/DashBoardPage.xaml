@@ -1,0 +1,82 @@
+﻿<Page x:Class="LoanManagementSystem.View.WpfPage.DashBoardPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="770"
+	  >
+    <Grid VerticalAlignment="Bottom">
+        <StackPanel Orientation="Vertical" Margin="0,2,2,0" HorizontalAlignment="Right" Width="506">
+            <StackPanel Orientation="Vertical" Height="92" Margin="0,0,-0.4,0">
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10"/>
+            </StackPanel>
+
+
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Right" Height="400" Width="400">
+                <StackPanel Orientation="Horizontal" Height="200">
+                    <StackPanel Orientation="Vertical" Width="200">
+                        <StackPanel Orientation="Horizontal" Width="200" Height="100">
+
+                            <Button x:Name="SettingsBtn" Style="{StaticResource ModuleButtonType1LightBlue}" Width="90" Height="Auto">
+                                <StackPanel Orientation="Vertical">
+                                    <Image Source="/LoanManagementSystem;component/Images/WpfPage/DashBoard/iconSettings.png"  />
+                                    <TextBlock Text="Settings" FontSize="12" TextAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+
+                            <Button x:Name="CompanyBtn" Style="{StaticResource ModuleButtonType1Orange}" Width="90" Height="Auto" Click="CompanyBtn_Click">
+                                <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                                    <Image Source="/LoanManagementSystem;component/Images/WpfPage/DashBoard/appbar.box.layered.png"/>
+                                    <TextBlock Text="Packages" FontSize="11" TextAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Width="200" Height="100">
+                            <Button x:Name="HolidaysBtn" Style="{StaticResource ModuleButtonType1Meroon}" Width="90" Height="Auto">
+                                <StackPanel Orientation="Vertical">
+                                    <Image Source="/LoanManagementSystem;component/Images/WpfPage/DashBoard/appbar.people.profile.png" />
+                                    <TextBlock Text="Staff" FontSize="12" TextAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+
+                            <Button  x:Name="EventsBtn" Style="{StaticResource ModuleButtonType1Purple}" Width="90" Height="Auto">
+                                <StackPanel Orientation="Vertical">
+                                    <Image Source="/LoanManagementSystem;component/Images/WpfPage/DashBoard/appbar.calculator.png" />
+                                    <TextBlock Text="Loan Cal" FontSize="12" TextAlignment="Center"/>
+                                </StackPanel>
+                            </Button>
+                        </StackPanel>
+
+
+                    </StackPanel>
+
+                    <Button x:Name="AttendenceBtn" Style="{StaticResource ModuleButtonType1Green}" Height="Auto" Width="189" Margin="0,10,10,0" Click="AttendenceBtn_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Source="/LoanManagementSystem;component/Images/WpfPage/DashBoard/attendance.png" Width="100" Height="100"/>
+                            <TextBlock Text="Loan" FontSize="24" HorizontalAlignment="Center"/>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Orientation="Horizontal" Height="200" >
+
+                    <Button x:Name="ReportsBtn" Style="{StaticResource ModuleButtonType1Cyan}" Margin="0,10,10,10" Width="190" Click="ReportsBtn_Click" >
+                        <StackPanel Orientation="Vertical">
+                            <Image Source="/LoanManagementSystem;component/Images/WpfPage/DashBoard/appbar.input.pen.png" Width="100" Height="100"/>
+                            <TextBlock Text="Reports" FontSize="24" TextAlignment="Center" />
+                        </StackPanel>
+                    </Button>
+
+                    <Button x:Name="EmployeeBtn" Style="{StaticResource ModuleButtonType1Red}" Height="Auto" Margin="0,10,10,10" Width="190" Click="EmployeeBtn_Click">
+                        <StackPanel Orientation="Vertical">
+                            <Image Source="/LoanManagementSystem;component/Images/WpfPage/DashBoard/customericon.png" Width="100" Height="100"/>
+                            <TextBlock Text="Customer" FontSize="20" Width="91" TextAlignment="Center"/>
+                        </StackPanel>
+
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>
